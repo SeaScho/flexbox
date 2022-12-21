@@ -1,1 +1,39 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+
+
+}
+
+header {
+    height:14.29vh;
+}
+
+main {
+
+    height:81.3vh;
+    display:flex;
+    flex-direction:row;
+
+
+}
+
+article {
+    flex-basis:60%;
+}
+
+nav {
+    flex-basis:20%;
+}
+
+aside {
+    flex-basis:20%;
+
+}
+
+footer {
+    height:14.29vh;
+}

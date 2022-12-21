@@ -1,1 +1,46 @@
 /*Schrijf hier jouw CSS*/
+body {
+    display:flex;
+    flex-direction:row;
+    height:100vh;
+}
+
+.outer-col-1{
+    flex-grow: 1;
+}
+
+.outer-col-2{
+    flex-grow: 4;
+}
+
+header {
+    height: 18.2%;
+}
+
+.inner-row {
+    display:flex;
+    flex-direction:row;
+    height:81.8%;
+}
+.inner-col {
+    display:flex;
+    flex-direction:column;
+    border:1px solid red;
+    flex-grow:3;
+}
+article,footer {
+    height:100%;
+
+}
+
+article {
+    height:85.5%;
+}
+
+footer {
+    height:35%;
+}
+
+aside {
+    flex-grow:1;
+}

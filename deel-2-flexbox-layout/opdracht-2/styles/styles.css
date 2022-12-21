@@ -1,1 +1,30 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+.col-1 {
+    flex-grow: 1;
+}
+
+.col-2 {
+    flex-grow: 4;
+}
+
+header {
+    height: 18.2%;
+}
+
+main {
+    height: 63.4%;
+}
+
+footer {
+    height: 18.2%;
+}
+
+article {
+    height: 100%;
+}

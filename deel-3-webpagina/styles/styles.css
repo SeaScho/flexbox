@@ -1,1 +1,77 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin:0;
+    padding:0;
+}
+
+div {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#F2F3D9;
+}
+nav {
+    background-color:#030027;
+    display:flex;
+    flex-direction:row;
+    width:100vw;
+    height:10vh;
+}
+
+nav h1 {
+    color:white;
+    padding:20px;
+    flex-grow:1;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+ul {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    list-style-type:none;
+    column-gap:10px;
+    flex-grow:1;
+    flex-shrink:0;
+
+}
+
+li {
+    padding: 15px 40px 15px 15px;
+}
+main {
+    display:flex;
+    flex-direction:row;
+    column-gap:30px;
+    padding:40px;
+}
+article {
+    display:flex;
+    background-color:#C16E70;
+    max-width:280px;
+    height:350px;
+    padding:13px;
+}
+
+h1,h3 {
+    color:#030027;
+    padding-left:40px;
+    padding-right:40px;
+}
+h1 { padding-top:40px;}
+
+p {
+    text-align:center;
+    align-self:flex-end;
+}
